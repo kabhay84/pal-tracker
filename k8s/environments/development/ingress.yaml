@@ -4,7 +4,7 @@ metadata:
   name: pal-tracker
 spec:
   rules:
-    - host: development.tracker.13.57.232.48.nip.io
+    - host: development.54.193.183.223.nip.io
       http:
         paths:
           - path: /
