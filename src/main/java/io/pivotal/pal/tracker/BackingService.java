@@ -9,6 +9,7 @@ import static java.lang.Thread.sleep;
 @Service
 public class BackingService {
     private final Logger logger = LoggerFactory.getLogger(BackingService.class);
+
     private final BackingServiceFailure failure;
     private boolean warmed = false;
 
