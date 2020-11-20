@@ -55,3 +55,5 @@ public class TimeEntryController {
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 }
+//flyway -url="jdbc:postgresql://rajje.db.elephantsql.com:5432/yuwzdrwa" -locations=filesystem:databases/tracker migrate -user=yuwzdrwa -password=EYTHhzotdPxwRwr_dmsuIf0Wh68kNNH0
+//psql -h rajje.db.elephantsql.com -U yuwzdrwa
